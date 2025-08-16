@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Mishra - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h3>Ayush Mishra</h3>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">Experience</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav__link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Ayush Mishra</h1>
+                <h2 class="hero__subtitle">Creative Software & Web Developer trainee</h2>
+                <p class="hero__description">
+                   Driven and detail-oriented developer with hands-on experience in building scalable web applications and innovative tech solutions.
+                    Completed B.Tech in Computer Science Engineering, with a strong foundation in full-stack development and modern frameworks.
+                    Adept at turning ideas into impactful products through clean code, thoughtful design, and agile collaboration.
+                </p>
+                <div class="hero__buttons">
+                   <a href="./Resume-Ayush-Mishra-Fresher.pdf" download></a>
+  <button class="btn btn--primary" id="download-resume">Download Resume</button>
+</a>
+                    <a href="#contact" class="btn btn--secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="picture 1.jpg" alt="Ayush Mishra" class="hero__photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container">
+                <div class="about__content">
+                    <p class="about__description">
+                        I'm a dedicated Computer Science Engineering student at Dr. Abdul Kalam Technical University, Lucknow, with a passion for creating innovative web solutions. Currently in my final year (Oct 2021 - Jul 2025), I've gained hands-on experience through internships and personal projects.
+                    </p>
+                    <p class="about__description">
+                        My journey includes participating in McKinsey & Company's Forward Program, where I'm developing strategic thinking and analytical skills. I've also worked as a Web Developer Intern at Prodigy Info Technologies, where I successfully developed RESTful APIs and achieved significant improvements in code quality.
+                    </p>
+                    <div class="about__info">
+                        <div class="about__info-item">
+                            <h4>Education</h4>
+                            <p>B.Tech in Computer Science Engineering</p>
+                            <p>Dr. Abdul Kalam Technical University, Lucknow</p>
+                        </div>
+                        <div class="about__info-item">
+                            <h4>Key Coursework</h4>
+                            <ul>
+                                <li>Data Structures and Algorithms</li>
+                                <li>Object-Oriented Programming</li>
+                                <li>Database Management Systems</li>
+                                <li>Operating System</li>
+                                <li>Computer Network</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__image">
+                        <img src="picture 2.jpg" alt="Ayush Mishra" class="about__photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <h2 class="section__title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <div class="timeline__period">May 2025 - Jul 2025</div>
+                        <h3 class="timeline__title">Forward Program Learner</h3>
+                        <h4 class="timeline__company">McKinsey & Company</h4>
+                        <p class="timeline__description">
+                            Engaging in a global learning initiative focused on leadership, problem-solving, and business fundamentals. Developing strategic thinking and analytical skills through real-world case studies and expert-led sessions.
+                        </p>
+                        <ul class="timeline__achievements">
+                            <li>Global learning initiative participation</li>
+                            <li>Strategic thinking development</li>
+                            <li>Industry collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__marker"></div>
+                    <div class="timeline__content">
+                        <div class="timeline__period">Mar 2024 - Jun 2024</div>
+                        <h3 class="timeline__title">Web Developer Intern</h3>
+                        <h4 class="timeline__company">Prodigy Info Technologies</h4>
+                        <p class="timeline__description">
+                            Developed and integrated web applications with focus on backend development and API design.
+                        </p>
+                        <ul class="timeline__achievements">
+                            <li>Developed 5+ RESTful APIs using Node.js and MongoDB</li>
+                            <li>Achieved 98% code coverage</li>
+                            <li>Reduced post-release bugs by 35%</li>
+                            <li>Designed 3 APIs for user management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section__title">Featured Projects</h2>
+            <div class="projects__grid">
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Air Canvas</h3>
+                        <div class="project__tech">
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">MediaPipe</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                    <p class="project__description">
+                        Built a gesture-based Air Canvas using Python, OpenCV, and MediaPipe, enabling users to draw in mid-air via real-time hand tracking.
+                    </p>
+                    <ul class="project__features">
+                        <li>Fingertip detection and color segmentation</li>
+                        <li>Virtual canvas without physical contact</li>
+                        <li>Dynamic color selection and canvas clearing</li>
+                    </ul>
+                </div>
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Online Voting System</h3>
+                        <div class="project__tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <p class="project__description">
+                        Developed a secure online voting system with object-oriented design for voter authentication, candidate management, and vote tallying.
+                    </p>
+                    <ul class="project__features">
+                        <li>Encrypted data handling and input validation</li>
+                        <li>Vote integrity and duplication prevention</li>
+                        <li>Real-time result tracking</li>
+                    </ul>
+                </div>
+                <div class="project__card">
+                    <div class="project__header">
+                        <h3 class="project__title">Weather Cast</h3>
+                        <div class="project__tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                        </div>
+                    </div>
+                    <p class="project__description">
+                        Responsive weather application displaying comprehensive weather information with modern UI design.
+                    </p>
+                    <ul class="project__features">
+                        <li>Current temperature and air conditions</li>
+                        <li>Location-based weather data</li>
+                        <li>Wind speed, humidity, and country code display</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+      <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section__title">Technical Skills</h2>
+            <div class="skills__container">
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Programming Languages</h3>
+                    <div class="skills__list">
+                        <div class="skill__item">
+                            <span class="skill__name">C++</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">Python</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">JavaScript</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">SQL</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Web Technologies</h3>
+                    <div class="skills__list">
+                        <div class="skill__item">
+                            <span class="skill__name">HTML</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">CSS</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">Node.js</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Databases & Tools</h3>
+                    <div class="skills__list">
+                        <div class="skill__item">
+                            <span class="skill__name">MongoDB</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">MySQL</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">GitHub</span>
+                            <div class="skill__bar">
+                                <div class="skill__progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications section">
+        <div class="container">
+            <h2 class="section__title">Certifications & Achievements</h2>
+            <div class="certifications__grid">
+                <div class="cert__card">
+                    <h4>McKinsey & Company Forward Program</h4>
+                    <p>Global learning initiative focused on leadership and strategic thinking</p>
+                </div>
+                <div class="cert__card">
+                    <h4>Goldman Sachs Software Engineering Simulation</h4>
+                    <p>Hands-on software engineering experience through simulation</p>
+                </div>
+                <div class="cert__card">
+                    <h4>HackerRank Python (Basic)</h4>
+                    <p>Certified in Python programming fundamentals</p>
+                </div>
+                <div class="cert__card">
+                    <h4>HackerRank SQL (Intermediate)</h4>
+                    <p>Advanced database querying and management skills</p>
+                </div>
+                <div class="cert__card">
+                    <h4>Google Developers Student Club</h4>
+                    <p>Active member of Google's developer community</p>
+                </div>
+                <div class="cert__card">
+                    <h4>C++ Data Structure & Algorithm</h4>
+                    <p>E&ICT Academy, IIT Kanpur certification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section__title">Get In Touch</h2>
+            <div class="contact__container">
+                <div class="contact__info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just connecting with fellow developers.</p>
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <h4>Email</h4>
+                            <a href="mailto:Ayushmishra028@outlook.com">Ayushmishra028@outlook.com</a>
+                        </div>
+                        <div class="contact__item">
+                            <h4>Phone</h4>
+                            <a href="tel:+919654885207">+91-9654885207</a>
+                        </div>
+                        <div class="contact__item">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/-ayushmishra-x/" target="_blank">linkedin.com/in/-ayushmishra-x/</a>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" action="https://formspree.io/f/mrbldqwk" method="POST">
+    <!-- Your existing fields -->
+    <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+    </div>
+    
+    <!-- Optional: Spam protection -->
+    <input type="text" name="_gotcha" style="display:none">
+    
+    <!-- Optional: Custom subject line -->
+    <input type="hidden" name="_subject" value="New contact from portfolio">
+    
+    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+</form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ayush Mishra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
